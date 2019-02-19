@@ -2,8 +2,8 @@ require "formula"
 
 class AitCli < Formula
     homepage "https://ipsoft.com"
-    url "https://gitlab.com/ait-tools/ait-cli.git"
-    head "https://gitlab.com/ait-tools/ait-cli.git"
+    url "https://github.com/ipsoft-ait/homebrew-tools.git"
+    head "https://github.com/ipsoft-ait/homebrew-tools.git"
 
     depends_on "go" => :build
 
