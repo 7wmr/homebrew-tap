@@ -14,9 +14,9 @@ class AitCli < Formula
         system "go", "get", "github.com/mitchellh/go-homedir"
         system "go", "get", "github.com/spf13/cobra"
         system "go", "get", "github.com/spf13/viper"
-        system "go", "get", "github.com/ipsoft-ait/ait-cli/cmd"
         system "go", "get", "github.com/ipsoft-ait/ait-cli/conf"
-
+        system "go", "get", "github.com/ipsoft-ait/ait-cli/cmd"
+        
         system "go", "build", "-o", "ait"
         bin.install "ait"
     end
