@@ -1,6 +1,6 @@
 require "formula"
 
-class AitCli < Formula
+class IpsoftAitCli < Formula
     homepage "https://ipsoft.com"
     url "https://github.com/ipsoft-tools/ait-cli.git"
     head "https://github.com/ipsoft-tools/ait-cli.git"
