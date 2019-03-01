@@ -1,6 +1,6 @@
 require "formula"
 
-class OneDesk < Formula
+class OneDeskCli < Formula
     homepage "https://ipsoft.com"
     url "https://github.com/ipsoft-tools/1desk-cli.git"
     head "https://github.com/ipsoft-tools/1desk-cli.git"
