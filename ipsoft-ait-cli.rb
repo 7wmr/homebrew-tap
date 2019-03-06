@@ -14,6 +14,7 @@ class IpsoftAitCli < Formula
         system "go", "get", "github.com/mitchellh/go-homedir"
         system "go", "get", "github.com/spf13/cobra"
         system "go", "get", "github.com/spf13/viper"
+        system "go", "get", "golang.org/x/crypto/ssh/terminal"
         system "go", "get", "github.com/ipsoft-tools/ait-cli/conf"
         system "go", "get", "github.com/ipsoft-tools/ait-cli/cmd"
         
