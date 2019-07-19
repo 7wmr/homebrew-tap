@@ -2,5 +2,5 @@
 
 
 ```bash
-brew tap ipsoft-tools/homebrew-tools
+brew tap 7wmr/homebrew-tools
 ```
