@@ -2,8 +2,8 @@ require "formula"
 
 class Ipsoft1deskCli < Formula
     homepage "https://ipsoft.com"
-    url "https://github.com/ipsoft-tools/1desk-cli.git"
-    head "https://github.com/ipsoft-tools/1desk-cli.git"
+    url "https://github.com/7wmr/1desk-cli.git"
+    head "https://github.com/7wmr/1desk-cli.git"
 
     depends_on "go" => :build
 
@@ -14,8 +14,8 @@ class Ipsoft1deskCli < Formula
         system "go", "get", "github.com/mitchellh/go-homedir"
         system "go", "get", "github.com/spf13/cobra"
         system "go", "get", "github.com/spf13/viper"
-        system "go", "get", "github.com/ipsoft-tools/1desk-cli/conf"
-        system "go", "get", "github.com/ipsoft-tools/1desk-cli/cmd"
+        system "go", "get", "github.com/7wmr/1desk-cli/conf"
+        system "go", "get", "github.com/7wmr/1desk-cli/cmd"
         
         system "go", "build", "-o", "1desk"
         bin.install "1desk"
