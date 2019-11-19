@@ -1,9 +1,11 @@
-Homebrew Tools
+Homebrew Tap
 ===========================
 
 
-Tap
+Setup
 ---------------------------
+
+Run the command below.
 
 .. code:: bash
 
