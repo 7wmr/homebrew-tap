@@ -7,5 +7,5 @@ Tap
 
 .. code:: bash
 
-  brew tap 7wmr/homebrew-tools
+  brew tap 7wmr/tap
 
