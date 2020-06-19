@@ -4,6 +4,7 @@ class GodaddyCli < Formula
   homepage "https://7wmr.uk"
   url "https://github.com/7wmr/godaddy-cli.git"
   head "https://github.com/7wmr/godaddy-cli.git"
+  version "v1.0.0"
 
   depends_on "go" => :build
 
