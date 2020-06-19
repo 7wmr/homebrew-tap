@@ -4,6 +4,7 @@ class Ipsoft1deskCli < Formula
     homepage "https://ipsoft.com"
     url "https://github.com/7wmr/1desk-cli.git"
     head "https://github.com/7wmr/1desk-cli.git"
+    version "v1.0.0"
 
     depends_on "go" => :build
 
